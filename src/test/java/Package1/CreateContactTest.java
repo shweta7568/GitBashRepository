@@ -8,6 +8,8 @@ public class CreateContactTest {
 	@Test(groups ="SmokeTest")
 	public void Test1() {
 		System.out.println("First test of CreateContactTest");
+		System.out.println(System.getProperty("Browser"));
+		System.out.println(System.getProperty("Url"));
 		
 	}
 	
