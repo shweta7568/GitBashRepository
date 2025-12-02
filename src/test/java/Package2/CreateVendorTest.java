@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class CreateVendorTest {
 	
-	@Test
+	@Test(groups ="SmokeTest")
 	public void Test1() {
 		System.out.println("First test of CreateVendorTest");
 		
 	}
 	
-	@Test
+	@Test(groups ="RegressionTest")
 	public void Test2() {
 		System.out.println("second test of CreateVendorTest");
 		

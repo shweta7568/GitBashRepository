@@ -5,13 +5,13 @@ import org.testng.annotations.Test;
 
 public class CreateContactTest {
 
-	@Test
+	@Test(groups ="SmokeTest")
 	public void Test1() {
 		System.out.println("First test of CreateContactTest");
 		
 	}
 	
-	@Test
+	@Test(groups ="RegressionTest")
 	public void Test2() {
 		System.out.println("Second test of CreateContactTest");
 		
